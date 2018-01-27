@@ -12,7 +12,7 @@
 - [JSP与Servlet区别简述](http://blog.csdn.net/epm_kf6_10/article/details/48602117) :JSP在本质上就是Servlet,但是两者的创建方式不一样。Servlet都是由JAVA程序代码构成，用于流程控制和事务处理，通过Servlet来生成动态网页很不直观。而JSP由HTML代码和JSP标签构成，可以方便地编写动态网页.  
 - [ThreadLocal实现方式](http://blog.csdn.net/zhangerqing/article/details/43095147) 
 - 线程池的实现
-- 7. hashmap（源码）／concurrentHashMap（源码）／reentrantlock（源码）／threadLocal（源码）／线程池（实现原理）／mybatis／spring
+- hashmap（源码）／concurrentHashMap（源码）／reentrantlock（源码）／threadLocal（源码）／线程池（实现原理）／mybatis／spring
   - Hashmap:
   
 ```
@@ -112,8 +112,11 @@ wait/notify/notifyAll和sleep/yield/join
 - 系列
  - [Java并发编程系列](http://www.cnblogs.com/paddix/p/5374810.html)
  - [死磕Java并发系列](https://www.jianshu.com/nb/12860760)    
+ - [java并发编程系列](http://cmsblogs.com/?cat=97&paged=4)
   
-  
+- 书籍推荐
+ - 1. [《Java并发编程的艺术》]()
+ - 2. [《Java并发编程实践》]()
   
 ---
 ## JDK等源码相关：
@@ -173,6 +176,8 @@ context:component-scan
 ## 设计模式
 - [瀑布模型与敏捷模型](http://zhaisj.blog.51cto.com/219066/46187/)
 - 工厂／抽象工厂／单例模式／适配器模式／装饰模式／观察模式／外观模式／策略模式。。。
+- 系列
+ - [设计模式系列](http://cmsblogs.com/?cat=15)
 
 
 ```
