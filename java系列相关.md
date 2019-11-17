@@ -86,7 +86,9 @@ Segment的count相加就可以得到整个ConcurrentHashMap大小了呢？不是
 - [多线程之间的通信](https://mp.weixin.qq.com/s/ALxAKVyjYjxxVd1OPRtq2w)
 thread.join(), object.wait(), object.notify(), CountdownLatch, CyclicBarrier, FutureTask, Callable，yield    
 wait/notify/notifyAll和sleep/yield/join
- 
+  - [Java 浅析Thread.join()](https://www.cnblogs.com/huangzejun/p/7908898.html)  
+  - [java 线程方法join的简单总结](https://www.cnblogs.com/lcplcpjava/p/6896904.html)
+  - [暂停Thread：yield](http://blog.csdn.net/miqi770/article/details/47397561)  (running--> runnable)  
   - 如何让两个线程依次执行？
   - 那如何让 两个线程按照指定方式有序交叉运行呢？
   -  四个线程 A B C D，其中 D 要等到 A B C 全执行完毕后才执行，而且 A B C 是同步运行的
@@ -97,8 +99,9 @@ wait/notify/notifyAll和sleep/yield/join
 - synchronize／reentranlock ／lock
   - [Synchronized（对象锁）和Static Synchronized（类锁）的区别
 ](http://blog.csdn.net/cs408/article/details/48930803)  
+- [CountdownLatch／semaphone／cycleBarrier](http://www.importnew.com/21889.html)
 - Java存储模型
-- CountdownLatch／semaphone／cycleBarrier
+
 - lock与synchronized区别
 [Java中的ReentrantLock和synchronized两种锁定机制的对比
 ](http://blog.csdn.net/fw0124/article/details/6672522)
@@ -108,7 +111,7 @@ wait/notify/notifyAll和sleep/yield/join
   - [高并发电商架构](http://blog.jobbole.com/85461/)
   - [ 电商那些年，我摸爬打滚出的高并发架构实战精髓](http://blog.csdn.net/u010327957/article/details/52788068)
   - [大话程序猿眼里的高并发](https://blog.thankbabe.com/tag/#高并发架构)
-
+  - [浅析项目中的并发](http://www.importnew.com/27273.html)
 - 系列
  - [Java并发编程系列](http://www.cnblogs.com/paddix/p/5374810.html)
  - [死磕Java并发系列](https://www.jianshu.com/nb/12860760)    
